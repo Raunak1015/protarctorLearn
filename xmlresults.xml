@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="11.937">
- <testsuite name="Demo cal test" timestamp="2020-12-11T13:25:36" hostname="localhost" time="11.937" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Demo cal test" name="test1" time="11.933" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="8.943">
+ <testsuite name="Demo cal test" timestamp="2020-12-13T17:07:21" hostname="localhost" time="8.943" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Demo cal test" name="test1" time="8.938" />
  </testsuite>
 </testsuites>
