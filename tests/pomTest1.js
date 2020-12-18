@@ -14,12 +14,5 @@ describe('Demo cal test',function(){
         homepage.clickon();
         homepage.verifyResult('9');
      });
-     it('test3',function(){
-        homepage.get('https://juliemr.github.io/protractor-demo/');
-        homepage.enterValueinfirstBox('11');
-        homepage.enterValueinSecondBox('7');
-        homepage.clickon();
-        homepage.verifyResult('18');
-     });
     
 });
