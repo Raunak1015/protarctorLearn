@@ -7,5 +7,19 @@ describe('Demo cal test',function(){
        homepage.clickon();
        homepage.verifyResult('8');
     });
+    it('test2',function(){
+        homepage.get('https://juliemr.github.io/protractor-demo/');
+        homepage.enterValueinfirstBox('6');
+        homepage.enterValueinSecondBox('4');
+        homepage.clickon();
+        homepage.verifyResult('10');
+     });
+     it('test3',function(){
+        homepage.get('https://juliemr.github.io/protractor-demo/');
+        homepage.enterValueinfirstBox('2');
+        homepage.enterValueinSecondBox('4');
+        homepage.clickon();
+        homepage.verifyResult('7');
+     });
     
 });
