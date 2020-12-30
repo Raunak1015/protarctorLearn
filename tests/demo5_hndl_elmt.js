@@ -17,7 +17,7 @@ describe("mySuite",function(){
         element(by.model("UserType")).sendKeys("5");
         browser.sleep(5000);
         element(by.model("UserActive")).click();
-        browser.sleep(5000);
+        browser.sleep(3000);
         element(by.css("[ng-click='AddUpdateUser()']")).click();
         browser.sleep(5000);
         //handling alert
